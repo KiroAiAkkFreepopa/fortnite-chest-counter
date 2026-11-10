@@ -1,0 +1,9 @@
+C:\Users\Denis\Desktop\ReplayScan-fixed\lib\OozSharp\bin\Release\net10.0\OozSharp.deps.json
+C:\Users\Denis\Desktop\ReplayScan-fixed\lib\OozSharp\bin\Release\net10.0\OozSharp.dll
+C:\Users\Denis\Desktop\ReplayScan-fixed\lib\OozSharp\obj\Release\net10.0\OozSharp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Denis\Desktop\ReplayScan-fixed\lib\OozSharp\obj\Release\net10.0\OozSharp.AssemblyInfoInputs.cache
+C:\Users\Denis\Desktop\ReplayScan-fixed\lib\OozSharp\obj\Release\net10.0\OozSharp.AssemblyInfo.cs
+C:\Users\Denis\Desktop\ReplayScan-fixed\lib\OozSharp\obj\Release\net10.0\OozSharp.csproj.CoreCompileInputs.cache
+C:\Users\Denis\Desktop\ReplayScan-fixed\lib\OozSharp\obj\Release\net10.0\OozSharp.dll
+C:\Users\Denis\Desktop\ReplayScan-fixed\lib\OozSharp\obj\Release\net10.0\refint\OozSharp.dll
+C:\Users\Denis\Desktop\ReplayScan-fixed\lib\OozSharp\obj\Release\net10.0\ref\OozSharp.dll

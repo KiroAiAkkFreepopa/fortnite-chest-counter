@@ -1,0 +1,10 @@
+     build/
+     dist/
+     dist_scan/
+     bin/
+     obj/
+     __pycache__/
+     *.spec
+     *.exe
+     debug.txt
+     short.txt

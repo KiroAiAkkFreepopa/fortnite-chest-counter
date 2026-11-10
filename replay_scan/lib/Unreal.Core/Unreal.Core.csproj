@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>Unreal.Core</AssemblyName>
+    <RootNamespace>Unreal.Core</RootNamespace>
+    <!-- Warnings of the upstream code (nullability in KeyList, obsolete ChType): kept as-is. -->
+    <NoWarn>$(NoWarn);CS0618;CS8714;CS8762</NoWarn>
+  </PropertyGroup>
+  <ItemGroup Condition="'$(OfflineBuild)' == 'true'">
+    <FrameworkReference Include="Microsoft.AspNetCore.App" />
+  </ItemGroup>
+  <ItemGroup Condition="'$(OfflineBuild)' != 'true'">
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="10.0.0" />
+  </ItemGroup>
+</Project>

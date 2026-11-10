@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>FortniteReplayReader</AssemblyName>
+    <RootNamespace>FortniteReplayReader</RootNamespace>
+    <!-- Nullability warning of the upstream FortniteReplayBuilder.cs. -->
+    <NoWarn>$(NoWarn);CS8714</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Unreal.Core\Unreal.Core.csproj" />
+    <ProjectReference Include="..\Unreal.Encryption\Unreal.Encryption.csproj" />
+  </ItemGroup>
+  <ItemGroup Condition="'$(OfflineBuild)' == 'true'">
+    <FrameworkReference Include="Microsoft.AspNetCore.App" />
+  </ItemGroup>
+  <ItemGroup Condition="'$(OfflineBuild)' != 'true'">
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="10.0.0" />
+  </ItemGroup>
+</Project>

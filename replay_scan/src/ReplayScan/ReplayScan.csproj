@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <AssemblyName>replay_scan</AssemblyName>
+    <RootNamespace>ReplayScan</RootNamespace>
+    <Version>1.0.0</Version>
+    <PublishTrimmed>false</PublishTrimmed>
+    <InvariantGlobalization>true</InvariantGlobalization>
+    <ServerGarbageCollection>false</ServerGarbageCollection>
+    <ConcurrentGarbageCollection>false</ConcurrentGarbageCollection>
+  </PropertyGroup>
+  <ItemGroup>
+    <!-- The analyzer and the language helper are used as they are (MIT, LED-N): nothing is copied. -->
+    <Compile Include="..\ChestCounter\ReplayAnalyzer.cs" Link="ReplayAnalyzer.cs" />
+    <Compile Include="..\ChestCounter\Lang.cs" Link="Lang.cs" />
+    <ProjectReference Include="..\..\lib\FortniteReplayReader\FortniteReplayReader.csproj" />
+  </ItemGroup>
+</Project>
