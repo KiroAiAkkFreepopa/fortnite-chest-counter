@@ -15,7 +15,7 @@
 
 ### 🚀 Установка и запуск
 1. Скачайте файлы проекта.
-2. Запустите `sFortniteChestCounter.exe`.
+2. Запустите `FortniteChestCounter.exe`.
 3. Запустите Fortnite и играйте.
 4. Откройте меню программы клавишей `Insert` или `Delete`.
 
